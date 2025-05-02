@@ -36,7 +36,7 @@
 
   function showPlayerDetails() {
     const playerKey = playerInput.value.toLowerCase().trim();
-    const teamKey = teamInput.value.toLowerCase().trim();
+    const teamKey = teamInput.value.trim().toUpperCase();
 
     const infoBox = document.getElementById("player-info");
     const bowlersBox = document.getElementById("bowlers-info");
