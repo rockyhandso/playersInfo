@@ -1,25 +1,37 @@
 {
     "players": {
       "virat kohli": {
+        "_team": "RCB_Start",
         "name": "Virat Kohli",
-        "role": "Batsman",
-        "team": "India",
+        "role": "Right-Handed Batsman",
+        "team": "Royal Challengers Bangalore",
         "matches": 10,
         "other": "Known for consistency and chase master.",
         "outAgainst": {
-          "delhi": ["Anrich Nortje", "Axar Patel"],
-          "mumbai": ["Jasprit Bumrah", "Piyush Chawla"]
+          "CSK":["Noor Ahmed"],
+          "GT":["Arshad Khan"],
+          "MI":["Hardik Pandya"],
+          "DC":["Vipraj Nigam","Dushmantha Chameera"],
+          "PBKS":["Arshdeep Singh"],
+          "RR":["Jofra Archer"]
         }
       },
       "rohit sharma": {
+        "_team": "MI",
         "name": "Rohit Sharma",
-        "role": "Batsman",
-        "team": "India",
-        "matches": 12,
-        "other": "Captain of India in limited overs.",
+        "role": "Right-Handed Batsman",
+        "team": "Mumbai Indians",
+        "matches": 8,
+        "other": "Aggressive Batsman.",
         "outAgainst": {
-          "delhi": ["Khaleel Ahmed", "Kuldeep Yadav"],
-          "rcb": ["Mohammed Siraj"]
+          "CSK": ["Khaleel Ahmed"],
+          "GT": ["Mohammed Siraj"],
+          "KKR":["Andre Russell"],
+          "RCB":["Yash Dayal"],
+          "DC":["Vipraj Nigam"],
+          "SRH":["Pat Cummins","Eshan Malinga"],
+          "LSG":["Mayank Yadav"],
+          "RR":["Riyan Parag"]
         }
       }
     },
