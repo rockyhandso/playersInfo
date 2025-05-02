@@ -1,0 +1,28 @@
+{
+    "players": {
+      "virat kohli": {
+        "name": "Virat Kohli",
+        "role": "Batsman",
+        "team": "India",
+        "matches": 10,
+        "other": "Known for consistency and chase master.",
+        "outAgainst": {
+          "delhi": ["Anrich Nortje", "Axar Patel"],
+          "mumbai": ["Jasprit Bumrah", "Piyush Chawla"]
+        }
+      },
+      "rohit sharma": {
+        "name": "Rohit Sharma",
+        "role": "Batsman",
+        "team": "India",
+        "matches": 12,
+        "other": "Captain of India in limited overs.",
+        "outAgainst": {
+          "delhi": ["Khaleel Ahmed", "Kuldeep Yadav"],
+          "rcb": ["Mohammed Siraj"]
+        }
+      }
+    },
+    "teams": ["Delhi", "Mumbai", "RCB"]
+  }
+  

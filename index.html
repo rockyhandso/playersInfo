@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Player Search with Suggestions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Player & Opponent Info</h1>
+
+  <div style="position: relative;">
+    <input type="text" id="player-input" placeholder="Enter player name..." autocomplete="off"/>
+    <div id="player-suggestions" class="suggestions"></div>
+  </div>
+
+  <div style="position: relative;">
+    <input type="text" id="team-input" placeholder="Enter opponent team..." autocomplete="off"/>
+    <div id="team-suggestions" class="suggestions"></div>
+  </div>
+
+  <div class="info-box" id="player-info" style="display:none;">
+    <h2 id="name"></h2>
+    <div><strong>Role:</strong> <span id="role"></span></div>
+    <div><strong>Team:</strong> <span id="team"></span></div>
+    <div><strong>Total Matches:</strong> <span id="matches"></span></div>
+    <div><strong>Other Info:</strong> <span id="other"></span></div>
+  </div>
+
+  <div class="bowlers-box" id="bowlers-info" style="display:none;">
+    <h3>Out Against Bowlers (of selected team):</h3>
+    <ul id="bowlers-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    max-width: 280px;
+    margin: 5px auto;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .suggestions {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    text-align: left;
+    max-height: 180px;
+    overflow-y: auto;
+    border-radius: 5px;
+  }
+  
+  .suggestions div {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestions div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .info-box, .bowlers-box {
+    background: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 380px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .info-box h2 {
+    margin-top: 0;
+    color: #1976d2;
+  }
+  
+  .bowlers-box h3 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      padding: 15px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    .info-box, .bowlers-box {
+      padding: 15px;
+    }
+  
+    .suggestions {
+      font-size: 14px;
+    }
+  }
+  
